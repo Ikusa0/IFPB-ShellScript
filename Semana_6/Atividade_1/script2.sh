@@ -1,6 +1,5 @@
 #!/bin/bash
 
-read -rp "Arquivo 1: " FILE1
-read -rp "Arquivo 2: " FILE2
-
-(($(wc -l < "${FILE1}") > $(wc -l < "${FILE2}"))) && echo "${FILE1}" || echo "${FILE2}"
+[[ -e ${1} ]] && echo "SIM" || echo "NAO"
+[[ -e ${2} ]] && echo "SIM" || echo "NAO"
+[[ -e ${3} ]] && echo "SIM" || echo "NAO"

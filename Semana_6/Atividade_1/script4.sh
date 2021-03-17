@@ -1,3 +1,3 @@
 #!/bin/bash
 
-(($(wc -l < "${1}") >= 5)) 2> "/dev/null" || echo "BAD"
+(($(ls -p "${1}" | grep -cv '/') > $(ls -p "${2}" | grep -cv '/'))) && ls "${1}" || ls "${2}"

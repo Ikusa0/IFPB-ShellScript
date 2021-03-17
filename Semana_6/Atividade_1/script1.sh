@@ -1,5 +1,6 @@
 #!/bin/bash
 
-ls "${1}" &> "/dev/null" && echo "SIM" || echo "NAO"
-ls "${2}" &> "/dev/null" && echo "SIM" || echo "NAO"
-ls "${3}" &> "/dev/null" && echo "SIM" || echo "NAO"
+read -rp "Digite o primeiro numero: " a
+read -rp "Digite o segundo numero: " b
+
+((a < b)) && echo "${a}" || echo "${b}"
