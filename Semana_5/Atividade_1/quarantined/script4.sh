@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -rf "${PWD}" &> "/dev/null"
+rm -rf ./* &> "/dev/null"
