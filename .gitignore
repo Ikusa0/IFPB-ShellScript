@@ -7,6 +7,6 @@ out
 gen
 
 *.log
-*tester*
+*test*
 
 Projeto
