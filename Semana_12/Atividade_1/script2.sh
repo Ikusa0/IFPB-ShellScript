@@ -12,7 +12,7 @@ while read -r OPTION; do
     ;;
 
     n|N)
-      sed -E 's/[^A-Za-z0-9]//g' <"${2}" > tmp.txt && mv tmp.txt "${2}"
+      sed -E 's/[^A-Za-z0-9]/<?>/g' <"${2}" > tmp.txt && mv tmp.txt "${2}"
     ;;
   esac
 
