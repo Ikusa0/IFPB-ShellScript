@@ -23,3 +23,12 @@
 
 ### Semana 9
 - Estruturas WHILE e CASE
+
+### Semana 10
+- Processamento de Texto
+
+### Semana 11
+- GREP e Expressões Regulares
+
+### Semana 12
+- SED e Expressões Regulares
