@@ -1,0 +1,7 @@
+Nelson www.google.com.br 250
+Arr445 www.testes.com/dbz.wmv 20050
+Nelson www.uol.com.br 300
+Adoleta www.uol.com.br 203
+Vianna debian.org/9.7.0.iso 800555
+Vianna debian.org/9.7.0.iso 8325
+Adoleta www.testes.com/dbz.wmv 302
