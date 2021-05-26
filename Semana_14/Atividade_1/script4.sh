@@ -1,9 +1,7 @@
 #!/bin/bash
 
 DIR_PATH="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
-source "${DIR_PATH}/uppercase.sh"
-source "${DIR_PATH}/digits.sh"
-source "${DIR_PATH}/special.sh"
+source "${DIR_PATH}/functions.sh"
 
 case "${1}" in
 u|U)
